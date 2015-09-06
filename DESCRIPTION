@@ -1,0 +1,11 @@
+Package: CropWatR
+Type: Package
+Title: Crop-water balances according to algorithms described in the FAO Irrigation and drainage paper 56
+Version: 1.0
+Date: 2015-09-06
+Author: Jacob Teter
+Requires: rgdal, sp, raster
+Suggests: rgeos, rasterVis, ggplot2
+Maintainer: Jacob Teter <jacob.teter@gmail.com>
+Description: Functions to enable calculation of FAO Penman-Monteith reference evapotranspiration, crop- and soil-water balances for agricultural crops. GIS-enabled implementation (using R's basic spatial packages, including rgeos, rgdal sp, raster) at a daily time-step, including calibration methods for irrigation scheduling and variable crop planting and harvesting dates. Crop-water models according to the FAO 56 document 'Crop evapotranspiration - Guidelines for computing crop water requirements'
+License: GPL-2
